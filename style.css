@@ -226,7 +226,7 @@ nav {
     background: #0c0e1d;
     color: #ffff;
     transform: scale(1.05);
-    transition: 3s;
+    transition: 1s;
     border-radius: 15px;
 }
 
@@ -361,12 +361,10 @@ nav {
 .footer-links a {
     color: #FFFFFF;
     font-size: 15px;
-    transition: .3s;
 }
 
 .footer-links a:hover {
     color: #8c94a0;
-    transform: translateY(-3px);
 }
 
 .footer hr {
