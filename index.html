@@ -9,10 +9,11 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="nav">
             <div class="logo">
-                <img class="img" src="./assets/logo.png" alt="">
+
+                <img class="img" src="./assets/logo.png" alt="logo">
 
             </div>
             <ul class="nav-bar">
@@ -28,14 +29,16 @@
     <main>
         <section class="hero">
             <div class="overlay"></div>
-            <div class="hero-content">
-                <h1><em>Code.Connect.Create.</em></h1>
-                <p>Join 4,000+ engineers, founders and builders at the premier developer conference of 2026.
-                    Three days of cutting-edge talks, hands-on workshops and meaningful connections.
-                </p>
 
-                <button class="hero-btn">Register Now</button>
-            </div>
+            <h1>Code.<em>Connect</em>.Create.</h1>
+
+            <p>Join 4,000+ engineers, founders and builders at the premier developer conference of 2026.
+                Three days of cutting-edge talks, hands-on workshops and meaningful connections.
+            </p>
+
+
+
+            <button style=":hover{baground color:red;}" class="hero-btn">Register Now</button>
         </section>
 
 
@@ -44,7 +47,7 @@
                 <h2>Meet the Speakers</h2>
                 <div class="speaker-grid">
                     <div class="speaker-card">
-                        <img src="./assets/andrej.png" alt="Speakers">
+                        <img src="./assets/andrej.png" alt="andrej">
                         <div class="speaker-content">
                             <span class="category">AI / ML</span>
                             <h3>Andrej Karpathy</h3>
@@ -53,7 +56,7 @@
                     </div>
 
                     <div class="speaker-card">
-                        <img src="./assets/demis.png" alt="Speakers">
+                        <img src="./assets/demis.png" alt="demis">
                         <div class="speaker-content">
                             <span class="category">CLOUD & DEVOPS</span>
                             <h3>Demis Hassabis</h3>
@@ -62,7 +65,7 @@
                     </div>
 
                     <div class="speaker-card">
-                        <img src="./assets/gary.png" alt="Speakers">
+                        <img src="./assets/gary.png" alt="gary">
                         <div class="speaker-content">
                             <span class="category">FRONTEND</span>
                             <h3>Gary Marcus</h3>
@@ -71,7 +74,7 @@
                     </div>
 
                     <div class="speaker-card">
-                        <img src="./assets/mustafa.png" alt="Speakers">
+                        <img src="./assets/mustafa.png" alt="mustafa">
                         <div class="speaker-content">
                             <span class="category">SECURITY</span>
                             <h3>Mustafa Suleyman</h3>
@@ -95,11 +98,11 @@
                         <p>Per Person</p>
                         <ul>
                             <li>Access to all 3 conference days</li>
-                            <li>48 curated tecnical talks</li>
+                            <li>48 curated technical talks</li>
                             <li>2 workshop sessions</li>
-                            <li>Networking lounce and coffe break</li>
+                            <li>Networking lunch and coffee breaks</li>
                             <li>Conference swag bag</li>
-                            <li>Digital recoding (30 days)</li>
+                            <li>Digital recording (30 days)</li>
                         </ul>
                         <button type="button" class="pricing-btn">Get Standard</button>
                     </div>
@@ -143,7 +146,7 @@
 
         <section class="why-choose">
             <div class="choose-container">
-                <h2>Why choose devcon 2026?</h2>
+                <h2>Why choose devconf 2026?</h2>
                 <p class="subtitle">Discover why thousands of developers join us every year.</p>
                 <div class="feature-container">
                     <div class="feature-card">
@@ -168,26 +171,30 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
-            <div class="footer-top">
-                <div class="footer-image"><img src="./assets/logo-mini.png" alt=""></div>
-                <div class="footer-links">
-                    <a href="https/www.facebook.com">facebook</a>
-                    <a href="https/www.com">Google</a>
-                    <a href="https/www.whatsapp.com">Whatsapp</a>
-                    <a href="https/www.twiter.com">Twiter</a>
-                    <a href="https/www.gmail.com">Gmail</a>
-                </div>
-                <hr>
-                <div class="footer-bottom">
-                    <p>© 2026 DevConf. All rights reserved.</p>
-                </div>
-            </div>
-
-        </footer>
-
     </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-image"><img src="./assets/logo-mini.png" alt=""></div>
 
+            <div class="footer-links">
+                <a href="https://www.facebook.com"><img class="footer-link-image" src="./assets/facebook"
+                        alt="facebook"></a>
+                <a href="https://www.youtube.com"><img class="footer-link-image" src="./assets/youtube.png"
+                        alt="you tube"></a>
+                <a href="https://www.whatsapp.com"><img class="footer-link-image" src="./assets/whats app.jpg"
+                        alt="whatsapp"></a>
+                <a href="https://www.twitter.com"><img class="footer-link-image" src="./assets/twitter.png"
+                        alt="twitter"></a>
+                <a href="https://www.google.com"><img class="footer-link-image" src="./assets/google.png"
+                        alt="google"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>© 2026 DevConf. All rights reserved.</p>
+
+        </div>
+    </footer>
 </body>
 
 </html>
