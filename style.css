@@ -92,7 +92,7 @@ nav {
     padding: 4px 4px;
     border-radius: 12px;
     cursor: pointer;
-    position: bottom;
+    
 }
 
 .hero-btn:hover {
@@ -275,7 +275,7 @@ nav {
 
 .why-choose {
     padding: 80px 0;
-    /* background: #cccee0; */
+    background: #cccee0;
 }
 
 .choose-container {
