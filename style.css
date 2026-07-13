@@ -75,11 +75,7 @@
     font-size: 80px;
 
     max-height: 105px;
-    max-width: 959px
-    
-    
-    
-    
+    max-width: 959px;    
 }
 
 .hero p {
@@ -112,11 +108,9 @@
 }
 
 .hero button:hover {
-    background-color: #575757;
+    background-color: #859ee5;
 
 }
-
-
 .speakers {
     padding: 60px 80px;
     background: #FFFFFF;
@@ -174,7 +168,7 @@
 
 .speaker-content h3 {
     font-size: 25px;
-    margin: 10px 0;
+    margin: auto;
 }
 
 .speaker-content p {
