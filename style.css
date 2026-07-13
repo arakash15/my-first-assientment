@@ -76,12 +76,10 @@
 
     max-height: 105px;
     max-width: 959px
-    line-height: 80px;
-    letter-spacing: -3.2px;
-    text-align: center;
-    position: absolute;
-    top:65px;
-    left: 370px;
+    
+    
+    
+    
 }
 
 .hero p {
@@ -164,9 +162,7 @@
     object-fit: cover;
 }
 
-.
-
-.speaker-content {
+.speaker-content{
     padding: 20px;
 }
 
