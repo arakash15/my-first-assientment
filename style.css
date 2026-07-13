@@ -3,8 +3,8 @@
 
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     height: 98px;
-    width: 100%;
-    max-width: 1551;
+    
+    width: 1551;
     margin: auto;
 }
 
@@ -14,7 +14,7 @@
     align-items: center;
     padding: 20px 110px;
     height: 50px;
-    width: 100%;
+    
     width: 1320px;
     
 
@@ -114,7 +114,7 @@
 .speakers {
     padding: 60px 80px;
     background: #FFFFFF;
-    width: 1440px;
+    width: 1551px;
     height: 1279px;
     gap: 56px;
     position: relative;
