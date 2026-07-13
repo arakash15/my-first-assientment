@@ -3,17 +3,20 @@
 
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
     height: 98px;
-    width: 1551px;
+    width: 100%;
+    max-width: 1551;
+    margin: auto;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 60px;
+    padding: 20px 110px;
     height: 50px;
+    width: 100%;
     width: 1320px;
-    padding: 23.5px 115.5px;
+    
 
 
 }
@@ -29,7 +32,7 @@
     width: 363px;
     height: 26px;
     justify-content: space-between;
-    gap: 24px;
+    /* gap: 24px; */
     color: #575757;
 }
 
@@ -51,7 +54,8 @@
 .hero {
     position: relative;
     height: 786px;
-    width: 1551px;
+    width: 100%;
+   max-width: 1551px;
     background: url("./assets/banner.jpg")center/cover no-repeat;
     display: flex;
     justify-content: center;
@@ -67,26 +71,17 @@
     inset: 0;
     background: rgba(0, 0, 0, 0.1);
 }
-
-/* .hero-content {
-    position: relative;
-    z-index: 1;
-    padding: 20px;
-} */
-
 .hero h1 {
     font-size: 80px;
 
     max-height: 105px;
-    max-width: 959px;
+    max-width: 959px
     line-height: 80px;
     letter-spacing: -3.2px;
     text-align: center;
     position: absolute;
     top:65px;
     left: 370px;
-
-
 }
 
 .hero p {
@@ -138,9 +133,9 @@
     text-align: center;
     font-size: 48px;
     max-width: 900px;
-    max-height: 65px;
+    max-height: 50px;
     position: relative;
-    top: 80px;
+    top: 30px;
     left: 270px;
 }
 
@@ -149,9 +144,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     height: 1088px;
-    width: 1321px;
+    width: 100%;
+    max-width: 1321px;
     position: relative;
-    top: 201px;
+    top: 150px;
     left: 59.5px;
 }
 
@@ -162,29 +158,13 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.speaker-card1 {
+.speaker-card {
     width: 644px;
     height: 460px;
     object-fit: cover;
 }
 
-.speaker-card2 {
-    width: 644px;
-    height: 460px;
-    object-fit: cover;
-}
-
-.speaker-card3 {
-    width: 644px;
-    height: 460px;
-    object-fit: cover;
-}
-
-.speaker-card4 {
-    width: 644px;
-    height: 460px;
-    object-fit: cover;
-}
+.
 
 .speaker-content {
     padding: 20px;
@@ -216,8 +196,9 @@
 .pricing {
     padding: 100px 0;
     height: 718px;
-    width: 1551;
-    background: #FFFFFF;
+    width: auto;
+    max-width: 1551px;
+    background: white;
 
 }
 
@@ -244,6 +225,8 @@
     border-radius: 15px;
     padding: 35px;
     box-shadow: 0 20px 30px rgb(0, 0, 0, .08);
+    height: 444px;
+    width: 370px;
 
 }
 
@@ -287,6 +270,8 @@
     transform: scale(1.05);
     transition: 1s;
     border-radius: 15px;
+    height: 444px;
+    width: 370px;   
 }
 
 .pricing-card-speacial p {
@@ -333,7 +318,7 @@
 }
 
 .why-choose {
-    padding: 80px 0;
+    padding: 80px 50px;
     background: #cccee0;
 }
 
@@ -406,6 +391,7 @@
 
 .footer-image {
     height: 20px;
+    width: 20px;
 }
 
 .footer-links {
@@ -416,6 +402,7 @@
 
 .footer-link-image {
     height: 20px;
+    width: 20px;
     border-radius: 5px;
     padding-top: 5px;
 }
@@ -428,8 +415,7 @@
 
 .footer-bottom {
     text-align: center;
-    /* padding-top: 5px; */
-    height: 20px;
+    height: auto;
 }
 
 .footer-bottom p {
